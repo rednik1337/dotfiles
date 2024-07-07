@@ -1,0 +1,87 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 24,
+  "modules-left": ["custom/separatorsmall", "cpu", "memory", "temperature"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["wireplumber", "backlight", "custom/separator", "hyprland/language", "battery", "custom/separator", "clock", "tray", "custom/separatorsmall"],
+  "margin-left": 0,
+  "margin-bottom": 0,
+  "margin-right": 0,
+  "hyprland/workspaces": {
+    "justify": "center",
+    "disable-scroll": true,
+    "format": "{icon}",
+    "format-icons": {
+      "urgent": "",
+      "default": "",
+      "active": "",
+      "persistent": ""
+    }
+  },
+  "custom/separatorsmall": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "custom/separator": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  },
+  "battery": {
+    "bat": "BAT0",
+    "adapter": "ADP0",
+    "states": {
+      "good": 80,
+      "warning": 25,
+      "critical": 20 
+    },
+    "format": "󰁹 {capacity}%"
+  },
+  "hyprland/language": {
+    "format": "󰌌 {}",
+    "format-en": "US",
+    "format-ru": "RU"
+  },
+  "tray": {
+    //"icon-size":20,
+    "spacing": 10
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "󰥔 {:%Y-%m-%d}",
+    "format": "󰥔 {:%H:%M}"
+  },
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": " {}%"
+  },
+  "temperature": {
+    //"thermal-zone":1,
+    //"input-filename": "k10temp",
+    "hwmon-path":"/sys/class/hwmon/hwmon5/temp1_input",
+    "critical-threshold": 80,
+    //"format-critical":"{temperatureC}°C {icon}",
+    "format": "󰔏 {temperatureC}°C	"
+  },
+  "wireplumber": {
+    "on-click": "pavucontrol",
+    "format": "{icon} {volume}%",
+    "format-source": "",
+    "format-source-muted": "",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-"
+  },
+  "backlight": {
+    "format": "󰃠 {percent}%",
+    "on-scroll-down": "brightnessctl -q s 1%-",
+    "on-scroll-up": "brightnessctl -q s +1%"
+  }
+}

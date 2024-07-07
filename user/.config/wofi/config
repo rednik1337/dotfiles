@@ -1,0 +1,14 @@
+how=drun
+columns=1
+width=576
+xoffset=484
+yoffset=280
+allow_images=true
+insensitive=true
+image_size=30
+prompt=Grep amogus?
+key_up=k
+key_down=j
+key_left=h
+key_right=l
+

@@ -1,0 +1,72 @@
+@define-color background rgba(0, 0, 0, 0.30);
+@define-color foreground rgb(220, 220, 220);
+@define-color outline rgba(255, 255, 255, 0.15);
+/*@define-color accent rgb(188, 170, 164);  rgb(226, 204, 219 ); */
+@define-color textbox rgba(255, 255, 255, 0.05);
+@define-color highlight rgba(255, 255, 255, 0.1);
+
+@import "/home/rednik/.cache/wal/colors-wofi";
+
+
+* {
+    all: unset;
+}
+
+window {
+    background-color: @background;
+    border-radius: 10px;
+    border: 1px solid @outline;
+    font-family: JetBrainsMonoNF;
+    font-weight: 200;
+}
+
+#outer-box {
+    padding: 2em;
+}
+
+#input {
+    padding: 1em .75em;
+    margin: 0em .25em;
+    font-size: 1.5em;
+    background-color: @background;
+    border: 1px solid transparent;
+    box-shadow: inset 0 -.15rem @accent;
+    transition: background-color .30s ease-in-out;
+    border-radius: 8px;
+}
+
+#input image {
+    margin-right: -1em;
+    color: transparent;
+}
+
+#input:focus {
+    background:@highlight;
+    border: 1px solid @outline;
+    border-radius: 8px;
+}
+
+#scroll {
+    margin-top: 1.5em;
+}
+
+#entry {
+    border: 1px solid transparent;
+    padding:1em;
+    margin: .25rem;
+    font-weight: normal;
+    box-shadow: inset 0rem 0px rgba(0, 0, 0, 0);
+    transition: box-shadow .30s ease-in-out, background-color .30s ease-in-out;
+    border-radius: 8px;
+}
+
+#entry image {
+    margin-right: .75em;
+}
+
+#entry:selected {
+    background-color: @highlight;
+    border: 1px solid @outline;
+    box-shadow: inset .2rem 0px @accent;
+    border-radius: 8px;
+}

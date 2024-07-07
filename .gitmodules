@@ -1,0 +1,21 @@
+[submodule "user/Repos/zsh-plugins/fzf-tab"]
+	path = user/Repos/zsh-plugins/fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab.git
+[submodule "user/Repos/zsh-plugins/powerlevel10k"]
+	path = user/Repos/zsh-plugins/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "user/Repos/zsh-plugins/zsh-autosuggestions"]
+	path = user/Repos/zsh-plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "user/Repos/zsh-plugins/zsh-syntax-highlighting"]
+	path = user/Repos/zsh-plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "user/Repos/zsh-plugins/zsh-completions"]
+	path = user/Repos/zsh-plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "user/Repos/zsh-plugins/zsh-vi-mode"]
+	path = user/Repos/zsh-plugins/zsh-vi-mode
+	url = https://github.com/jeffreytse/zsh-vi-mode.git
+[submodule "user/Repos/zsh-plugins/zsh-auto-notify-hyprland"]
+	path = user/Repos/zsh-plugins/zsh-auto-notify-hyprland
+	url = https://github.com/rednik1337/zsh-auto-notify-hyprland.git
