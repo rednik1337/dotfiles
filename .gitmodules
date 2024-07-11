@@ -16,3 +16,6 @@
 [submodule "user/Repos/zsh-plugins/zsh-vi-mode"]
 	path = user/Repos/zsh-plugins/zsh-vi-mode
 	url = https://github.com/jeffreytse/zsh-vi-mode.git
+[submodule "user/Repos/zsh-plugins/zsh-auto-notify-hyprland"]
+	path = user/Repos/zsh-plugins/zsh-auto-notify-hyprland
+	url = https://github.com/rednik1337/zsh-auto-notify-hyprland.git
