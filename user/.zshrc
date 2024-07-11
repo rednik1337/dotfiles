@@ -86,7 +86,7 @@ zstyle ':fzf-tab:complete:tldr:argument-1' fzf-preview 'tldr --color always $wor
 ### Binds
 bindkey "^j" down-line-or-history
 bindkey "^k" up-line-or-history
-
+bindkey "^l" autosuggest-accept
 
 ### Aliases
 alias ls='ls --color=auto'
@@ -101,6 +101,7 @@ alias la='eza -lah --icons --git'
 alias nv='nvim'
 alias py='python'
 alias z='zeditor'
+alias y='yazi'
 alias c='clear'
 alias gc='git clone'
 

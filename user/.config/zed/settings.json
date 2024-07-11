@@ -26,5 +26,7 @@
   "autosave": "on_focus_change",
   "preferred_line_length": 200,
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "tab_size": 4
+  //"format_on_save": true
 }

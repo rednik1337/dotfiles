@@ -35,7 +35,7 @@
     "states": {
       "good": 80,
       "warning": 25,
-      "critical": 20 
+      "critical": 20
     },
     "format": "󰁹 {capacity}%"
   },
