@@ -6,27 +6,48 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
+
 {
-  "base_keymap": "JetBrains",
-  "theme": "Atelier Estuary Dark",
-  "vim_mode": true,
-  "vim": {
-    "use_system_clipboard": "always",
-    "use_multiline_find": true
-  },
-  "scrollbar": {
-    "show": "never"
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "ui_font_size": 12,
-  "buffer_font_size": 12,
-  "autosave": "on_focus_change",
-  "preferred_line_length": 200,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "relative_line_numbers": true,
-  "tab_size": 4
-  //"format_on_save": true
+    "features": {
+        "inline_completion_provider": "none"
+    },
+    "base_keymap": "JetBrains",
+    "theme": "Rosé Pine Moon",
+    "vim_mode": true,
+    "vim": {
+        "use_system_clipboard": "always",
+        "use_multiline_find": true
+    },
+    "scrollbar": {
+        "show": "never"
+    },
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "calls": {
+        "mute_on_join": true
+    },
+    "ui_font_size": 12,
+    "buffer_font_size": 12,
+    "autosave": "on_focus_change",
+    "preferred_line_length": 200,
+    "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+    "relative_line_numbers": true,
+    "tab_size": 4,
+    "use_system_path_prompts": false,
+    "indent_guides": {
+        "coloring": "indent_aware"
+    },
+    "inlay_hints": {
+        "enabled": true
+    }
+    // "assistant": {
+    // "default_model": {
+    // "provider": "openai",
+    // "model": "gpt-4o"
+    // },
+    // "version": "2"
+    // }
+    //"format_on_save": true
 }

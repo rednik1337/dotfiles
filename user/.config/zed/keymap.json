@@ -1,11 +1,9 @@
 [
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-shift-c": "editor::Copy",
-      "ctrl-shift-v": "editor::Paste",
-      "ctrl-j": "pane::ActivatePrevItem",
-      "ctrl-k": "pane::ActivateNextItem"
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-shift-c": "editor::Copy",
+            "ctrl-shift-v": "editor::Paste"
+        }
     }
-  }
 ]
