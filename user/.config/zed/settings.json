@@ -12,7 +12,7 @@
         "inline_completion_provider": "none"
     },
     "base_keymap": "JetBrains",
-    "theme": "Rosé Pine Moon",
+    "theme": "Rosé Pine",
     "vim_mode": true,
     "vim": {
         "use_system_clipboard": "always",
@@ -41,6 +41,13 @@
     },
     "inlay_hints": {
         "enabled": true
+    },
+    "lsp": {
+        "clangd": {
+            "binary": {
+                "path": "/home/rednik/Projects/flopper/toolchain/esp-clang/bin/clangd"
+            }
+        }
     }
     // "assistant": {
     // "default_model": {
