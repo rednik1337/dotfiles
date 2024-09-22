@@ -41,14 +41,15 @@
     },
     "inlay_hints": {
         "enabled": true
-    },
-    "lsp": {
-        "clangd": {
-            "binary": {
-                "path": "/home/rednik/Projects/flopper/toolchain/esp-clang/bin/clangd"
-            }
-        }
     }
+    // },
+    // "lsp": {
+    // "clangd": {
+    // "binary": {
+    // "path": "/home/rednik/Projects/flopper/toolchain/esp-clang/bin/clangd"
+    // }
+    // }
+    // }
     // "assistant": {
     // "default_model": {
     // "provider": "openai",

@@ -1,3 +1,5 @@
+ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+
 ### Theme
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -28,7 +30,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 HISTDUP=erase
 setopt appendhistory
-setopt sharehistory
+#setopt sharehistory
 setopt hist_ignore_space
 setopt hist_ignore_all_dups
 setopt hist_save_no_dups
